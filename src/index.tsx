@@ -1,9 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+// We're still in TypeScript-land so we can still define variables as you'd expect
 const adjective = "exciting";
 const noun = "wood";
 const verb = "chuck";
+
+// as well as ordinary functions
+function addNoiseToString(str: string): string {
+  return `NOISENOISENOISENOISE oh here's your string, '${str}', BUT HERE IS SOME MORE NOISE: ${Math.random()}`;
+}
 
 /**
  * This is a TypeScript function - but a special one! It's a React function component.
@@ -17,6 +23,8 @@ const verb = "chuck";
  * This function is returning a 'JSX element'.
  *
  * For now, it's enough to think of it like HTML, but bear in mind that it isn't technically HTML that you're writing - you're writing JSX (which is an extension of JavaScript and TypeScript which makes it easier to write React code).
+ *
+ * Notice that it's cased differently. React function components should begin with a capital letter - this helps the React compiler.
  */
 function MyFirstReactComponent() {
   const yesYouCanUseVariablesHereToo = "hakuna matata";
@@ -95,6 +103,9 @@ function MyFirstReactComponent() {
         <li>
           Does {verb} contain the letter Q?{" "}
           {verb.includes("Q") ? "yeah!!" : "ah. no. it does not."}
+        </li>
+        <li>
+          Even calling on other (ordinary) functions: {addNoiseToString(noun)}
         </li>
         <li>
           So, as the saying goes:{" "}
