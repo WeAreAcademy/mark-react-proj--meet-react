@@ -1,4 +1,3 @@
-import React from "react";
 import ReactDOM from "react-dom";
 
 // We're still in TypeScript-land so we can still define variables as you'd expect
