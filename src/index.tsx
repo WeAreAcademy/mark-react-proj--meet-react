@@ -93,7 +93,8 @@ function MyFirstReactComponent() {
         <li>Random padding: {noun.padStart(40, "> pad >")}</li>
         <li>SHOUTING MUCH?: {verb.toUpperCase() + "!!!!!"}</li>
         <li>
-          Does {verb} contain the letter Q? {String(verb.includes("Q"))}
+          Does {verb} contain the letter Q?{" "}
+          {verb.includes("Q") ? "yeah!!" : "ah. no. it does not."}
         </li>
         <li>
           So, as the saying goes:{" "}
