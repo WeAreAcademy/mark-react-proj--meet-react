@@ -40,7 +40,7 @@ git clone https://github.com/WeAreAcademy/mark-react-proj--meet-react.git
 Then, change into the new directory and install the files:
 
 ```bash
-cd mark-react-proj--met-react
+cd mark-react-proj--meet-react
 yarn
 ```
 
