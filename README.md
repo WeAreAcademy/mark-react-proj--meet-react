@@ -85,6 +85,14 @@ Can you populate it with some information about yourself (a short bio, maybe a C
 
 (It's up to you as to whether you replace other bits of HTML or the other component, `MyFirstReactComponent`; all that's required is that you can see your component's rendered HTML. Don't forget that you'll need to refresh when you make changes!)
 
-## Exercise 4: Commentary and reflection
+## Exercise 4: Check your understanding
+
+> 🎯 **Success criterion:** a conversation with a Faculty member and amended comments.
+
+Talk to a member of Faculty about your understanding of the game and of TypeScript.
+
+Amend your notes for any important points that come out of the conversation.
+
+## Exercise 5: Commentary and reflection
 
 **Success criterion:** documented reflections.
