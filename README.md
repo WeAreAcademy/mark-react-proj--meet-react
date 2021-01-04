@@ -63,9 +63,17 @@ The `start` script is configured such that the app will run by default on your l
 3. Experiment with changing things
 4. Produce a narrative document
 
+> ⚠️ For now, you will have to refresh `localhost:3000` when you make changes to see them take effect. _(Instructor note: CRA hot reload / fast refresh seems not to be able to watch code inside `index.tsx`.)_
+
 A good narrative document for this game would explain how `public/index.html` and `src/index.tsx` seem to be interacting to produce the HTML that gets rendered in your browser. A great narrative document would demonstrate this through code snippets and screenshots which show how changes you have made in the code lead to changes in the browser that are consistent with your theory.
 
 > ⛏️ You may find it useful to use the **Inspector** in your browser developer tools to explore the rendered HTML elements. (Search online for how to do this if you are unsure.)
+
+Things you should try to cover:
+
+- What's the importance of the `document.getElementById` argument? What happens if you change it?
+- When you run the app, why do you see more things than are returned by your React app?
+- What's the role of the `{` in TSX code?
 
 ## Exercise 3: TypeScript-specific notes
 
