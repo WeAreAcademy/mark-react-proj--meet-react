@@ -35,15 +35,44 @@ function MyFirstReactComponent() {
   return (
     <div>
       <h1>Hello world from React!</h1>
+      <h2>Evaluating expressions</h2>
       <p>
         I'm written in React code into a target HTML element (and I'll happily
         obliterate anything in my way).
       </p>
       <p>
-        But I get to do <b>{adjective} things</b> when I use a React app!
+        But I get to do <b>cool things</b> when I use a React app! How many?
+        Lots: over {2 * (3 + 1)} of them, but who's counting?
       </p>
       <p>
-        Like using TypeScript variables to make things way easier to change!
+        (Well, my HTML isn't counting - it's not very clever, it doesn't
+        understand 2 * (3 + 1). But JavaScript can understand my expressions, so
+        "hoo" + "ray" = {"hoo" + "ray"}!)
+      </p>
+      <p>Maybe you want to just evaluate a string, too:</p>
+      <ul>
+        <li>But it probably won't give you any discernible difference?</li>
+        <li>{"But it probably won't give you any discernible difference?"}</li>
+        <li>"But it probably won't give you any discernible difference?"</li>
+      </ul>
+      <p>
+        <i>Hmm, that last one is a bit different, I wonder why...</i>
+      </p>
+      <p>Oh, it helps with the curly brace stuff, though.</p>
+      <p>
+        Like: {"this is a curly brace pair: {}"} which lets me have my '{"{}"}'
+        as text because React is going to use normal curly brackets to evaluate
+        TypeScript code instead.
+      </p>
+      <p>
+        e.g. I can't see these curly braces, {}, because they get evaluated
+        away... so I evaluate <i>to</i> some curly braces instead, {"{}"}, and
+        now I can see them!
+      </p>
+      <h2>Variable expressions too!</h2>
+      <p>
+        But, <b>even better</b>, I can use variables to make things way easier
+        to change! Isn't that {adjective}?
       </p>
       <p>
         For example: how much {noun} could a {noun}
