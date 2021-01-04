@@ -41,7 +41,7 @@ function MyFirstReactComponent() {
 
   return (
     <div>
-      <h1>Hello world from React!</h1>
+      <h1>Hello world, from React!</h1>
       <h2>Evaluating expressions</h2>
       <p>
         I'm written in React code into a target HTML element (and I'll happily
@@ -89,7 +89,10 @@ function MyFirstReactComponent() {
       <p>
         <i>
           But make sure you're using variables correctly in your JSX or else
-          you'll look as foolish as a nounverb that tries to verb noun
+          you'll look as foolish as a <code>nounverb</code> that tries to{" "}
+          <code>verb noun</code>. The trick is to use {"{}"} to enclose your
+          variable name, i.e. <code>{"{noun}"}</code> will evaluate the variable{" "}
+          <code>noun</code>: {noun}
         </i>
       </p>
       <p>
@@ -124,6 +127,13 @@ function MyFirstReactComponent() {
  * Having defined a React component, we target an element in our HTML document and *render* our React component into it
  */
 ReactDOM.render(
+  // this HTML-like tag syntax is creating a 'JSX element' from our own defined function!
   <MyFirstReactComponent />,
   document.getElementById("arbitrarily-named-target")
 );
+
+/* I wonder what happens if you were to uncomment out the below... */
+// ReactDOM.render(
+//   <MyFirstReactComponent />,
+//   document.getElementById("differently-named-target")
+// );
