@@ -69,61 +69,21 @@ A good narrative document for this game would explain how `public/index.html` an
 
 > ⛏️ You may find it useful to use the **Inspector** in your browser developer tools to explore the rendered HTML elements. (Search online for how to do this if you are unsure.)
 
-Things you should try to cover:
+Things you should try to cover include:
 
 - What's the importance of the `document.getElementById` argument? What happens if you change it?
 - When you run the app, why do you see more things than are returned by your React app?
 - What's the role of the `{` in TSX code?
 
-## Exercise 3: TypeScript-specific notes
+## Exercise 3: Writing your own React component
 
-> 🎯 **Success criterion:** a document which outlines how this Hangman game uses some TypeScript features that don't exist in JavaScript.
+> 🎯 **Success criterion:** a custom React component, `AboutMe`, which renders HTML to the browser at `localhost:3000`.
 
-The basic principles of variable assignment, control flow and functions are the same between TypeScript and JavaScript (and also Python).
+Now it's time to look at `AboutMe`. This is a currently relatively minimal React component.
 
-TypeScript does introduce some additional things, though:
+Can you populate it with some information about yourself (a short bio, maybe a CV-esque thing) and render the component through your React app?
 
-| Item | JavaScript example | TypeScript example |
-| --- | --- | --- |
-| Variable declaration | <pre>let counter = 10</pre> | <pre>let counter: number = 10</pre> |
-| Function declaration | <pre>function printCounterValue() { <br /> &nbsp;console.log(counter); <br /> }</pre> | <pre>function printCounterValue(): void { <br /> &nbsp;console.log(counter); <br />}</pre> |
-| Parameter declaration | <pre>function incrementCounter(n) { <br /> &nbsp;counter += n; <br /> &nbsp;return counter; <br /> }</pre> | <pre>function incrementCounter(n: number): number { <br /> &nbsp;counter += n; <br /> &nbsp;return counter; <br /> }</pre> |
-| Interfaces | N/A | <pre>interface FootballMatch { <br/>&nbsp;homeGoals: number; <br/>&nbsp;awayGoals: number; <br/>&nbsp;teamNames: string[]; <br/>&nbsp;isFullTime: boolean; <br/>}</pre> |
-| Types | N/A | <pre>type FootballPosition = 'striker' <br/>&nbsp;&#124; 'midfielder' <br/>&nbsp;&#124; 'defender' <br/>&nbsp;&#124; 'goalkeeper'</pre> |
-| Type Assertion | N/A | <pre>const substituteBench = [<br/>&nbsp;'goalkeeper', <br/>&nbsp;'defender', <br/>&nbsp;'defender', <br/>&nbsp;'midfielder', <br/>&nbsp;'midfielder', <br/>&nbsp;'striker' <br/>] as FootballPosition[]</pre> |
-
-Produce a document which explains:
-
-- How do each of these things work?
-- How are they used in the Hangman project?
-
-If you are a bit baffled by TypeScript, you might want to [try this 1 hour course](https://scrimba.com/learn/intrototypescript).
-
-## Exercise 4: Check your understanding
-
-> 🎯 **Success criterion:** a conversation with a Faculty member and amended comments.
-
-Talk to a member of Faculty about your understanding of the game and of TypeScript.
-
-Amend your notes for any important points that come out of the conversation.
-
-## Exercise 5: Extend the game
-
-> 🎯 **Success criterion:** a game which can be playtested and which satisfies the specified requirements for each extension.
-
-### Extension 1: Handle uppercase guesses
-
-The game probably doesn't behave as a player would expect when they guess a letter in uppercase form.
-
-Produce some acceptance criteria for a fix, and then try to implement a fix to pass those acceptance criteria.
-
-(Acceptance criteria are really helpful here because there are at least two fundamentally different ways you could handle the user inputting an uppercase letter: require them to try again with a lowercase letter, or process the uppercase letter in a sensible way.)
-
-### Extension 2: Hangman animation
-
-The game currently prints out a slightly boring 'Lives remaining' message.
-
-Can you extend the game so that an [ASCII stick person](https://www.google.com/search?q=ascii+stick+person&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjMy62_nfHtAhVAQhUIHV4qD1QQ_AUoAXoECBAQAw&biw=1536&bih=801) gets slowly assembled, like in the traditional whiteboard version of the game?
+(It's up to you as to whether you replace other bits of HTML or the other component, `MyFirstReactComponent`; all that's required is that you can see your component's rendered HTML. Don't forget that you'll need to refresh when you make changes!)
 
 ## Exercise 6: Commentary and reflection
 

@@ -137,3 +137,13 @@ ReactDOM.render(
 //   <MyFirstReactComponent />,
 //   document.getElementById("differently-named-target")
 // );
+
+// ---- IGNORE BELOW FUNCTION UNTIL EXERCISE THREE ----
+// (but there is stuff below that you should read before then)
+function AboutMe() {
+  return (
+    <div>
+      <h1>erm...</h1>
+    </div>
+  );
+}
