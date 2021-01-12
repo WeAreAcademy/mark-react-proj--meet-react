@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 const adjective = "exciting";
 const noun = "wood";
 const verb = "chuck";
+const declarationLocation = "outside the function";
 
 // as well as ordinary functions
 function addNoiseToString(str: string): string {
@@ -27,6 +28,7 @@ function addNoiseToString(str: string): string {
  */
 function MyFirstReactComponent() {
   const yesYouCanUseVariablesHereToo = "hakuna matata";
+  const declarationLocation = "inside the function";
   const names = ["Timone", "Pumba"];
   const doObjectsWorkToo = {
     answer: "yes",
@@ -85,6 +87,10 @@ function MyFirstReactComponent() {
         For example: how much {noun} could a {noun}
         {verb} {verb} if a {noun}
         {verb} could {verb} {noun}?
+      </p>
+      <p>
+        These variables can be declared {declarationLocation}, but don't have to
+        be.
       </p>
       <p>
         <i>
