@@ -83,7 +83,7 @@ Now it's time to look at `AboutMe`. This is a currently relatively minimal React
 
 Can you populate it with some information about yourself (a short bio, maybe a CV-esque thing) and render the component through your React app?
 
-(It's up to you as to whether you replace other bits of HTML or the other component, `MyFirstReactComponent`; all that's required is that you can see your component's rendered HTML. Don't forget that you'll need to refresh when you make changes!)
+(It's up to you as to whether you replace other bits of HTML or the other component, `MyFirstReactComponent`; all that's required is that you can see your component's rendered HTML. Don't forget that you'll need to refresh in the browser when you make changes!)
 
 ## Exercise 4: Check your understanding
 
