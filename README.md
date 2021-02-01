@@ -89,7 +89,7 @@ Can you populate it with some information about yourself (a short bio, maybe a C
 
 > 🎯 **Success criterion:** a conversation with a Faculty member and amended comments.
 
-Talk to a member of Faculty about your understanding of the game and of TypeScript.
+Talk to a member of Faculty about your understanding of this React app so far.
 
 Amend your notes for any important points that come out of the conversation.
 
