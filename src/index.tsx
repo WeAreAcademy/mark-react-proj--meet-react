@@ -145,7 +145,6 @@ ReactDOM.render(
 // );
 
 // ---- IGNORE BELOW FUNCTION UNTIL EXERCISE THREE ----
-// (but there is stuff below that you should read before then)
 function AboutMe() {
   return (
     <div>
