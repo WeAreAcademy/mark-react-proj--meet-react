@@ -67,7 +67,7 @@ The `start` script is configured such that the app will run by default on your l
 
 A good narrative document for this game would explain how `public/index.html` and `src/index.tsx` seem to be interacting to produce the HTML that gets rendered in your browser. A great narrative document would demonstrate this through code snippets and screenshots which show how changes you have made in the code lead to changes in the browser that are consistent with your theory.
 
-> ⛏️ You may find it useful to use the **Inspector** in your browser developer tools to explore the rendered HTML elements. (Search online for how to do this if you are unsure.)
+> ⛏️ You may find it useful to use the **Inspector** in your browser developer tools to explore the rendered HTML elements. (Search online for how to do this if you are unsure.) At this point check that you are using one of our recommended browsers: preferably Google Chrome, and Firefox if not.
 
 Things you should try to cover include:
 
