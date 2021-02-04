@@ -41,8 +41,13 @@ function MyFirstReactComponent() {
     },
   };
 
+  // This is a comment is similar to normal TS
+
   return (
     <div>
+      {/* But here among the HTML tags our comments are slightly different
+      If you forget how to signal a comment, then just write what you want to say, and use VS Code to do the rest!
+      Select your wannabe comment and press the command and forward slash keys together */}
       <h1>Hello world, from React!</h1>
       <h2>Evaluating expressions</h2>
       <p>
