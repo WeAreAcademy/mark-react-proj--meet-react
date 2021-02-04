@@ -26,6 +26,12 @@ We're now going to start working with **React**, a JavaScript library (with Type
 - Evaluate TypeScript values, variables and expressions inside TSX
 - Explain the purpose of `ReactDOM.render`
 
+## Exercise 0: Introducing React
+
+So far we have focused on programs which we interact with via the terminal. Now we are going to move on to those which we can interact with via the browser.
+
+React is a popular web development JavaScript library (with TS support). It is used to build interactive websites. [This blog post](https://skillcrush.com/blog/what-is-react-js/#what) will help to introduce you to what ReactJS is all about. [React has its own extensive documentation](https://reactjs.org/) which we recommend for future thought. If you already have some familiarity with web development, it's a good place to begin, but if this is all new to you then hold off until you have some more familiarity with HTML. Note that the React docs mainly refer to JavaScript but all of the learnings translate into TypeScript. 
+
 ## Exercise 1: Installing and demoing
 
 > 🎯 **Success criterion:** you can view the React web app on `localhost:3000`
@@ -50,7 +56,7 @@ Finally, run your first React app!
 yarn start
 ```
 
-The `start` script is configured such that the app will run by default on your local machine at `localhost:3000`, which should open up in your browser automatically (but which you can also navigate to by putting `localhost:3000` into the url).
+This will run the app. This is a web app and is configured to run by default on your local machine at `localhost:3000`, which should open up in your browser automatically (but which you can also navigate to by putting `localhost:3000` into the url).
 
 ## Exercise 2: Reading, understanding and documenting
 
